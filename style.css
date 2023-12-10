@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+*::selection{
+    color: #fff;
+    background-color: black;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding: 0 2vw;
+    padding-top: 15vh;
+}
+
+#page1 h1 {
+   font-size: 15vw;
+   font-family: futura; 
+   text-transform: uppercase;
+   line-height: 27vh; 
+   letter-spacing: -4px;
+}
+
+#video-container{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    margin-top: 1vw;
+    position: relative;
+}
+
+#video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#video-container #play{
+    text-align: center;
+    padding-top: 30px;
+    background-color: black;
+    color: #fff;
+    font-size: 0.9vw;
+    position:fixed;
+    text-transform: uppercase;
+    font-family: futura;
+    border-radius: 50%;
+    height: 10vh;
+    width: 5vw;
+    opacity: 0;
+    scale: 0;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    padding: 10vh 1vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page2 .elem{
+    height: 100vh;
+    width: 31%;
+    background-color: chartreuse;
+}
